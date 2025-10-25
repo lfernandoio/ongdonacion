@@ -3,8 +3,8 @@ bootstrap="vendor\autoload.php"
 colors="true"
 >
     <testsuites>
-        <testsuite name="Facturacion">
-            <directory>tests/Facturacion</directory>
+        <testsuite name="OngPruebas">
+            <directory>tests/Validaciones</directory>
         </testsuite>
     </testsuites>
 </phpunit>
