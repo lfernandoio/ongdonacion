@@ -9,7 +9,7 @@ WORKDIR /www
 
 # Copia tus archivos locales del proyecto al servidor web
 # (si tienes un proyecto PHP, colócalo en ./www antes de construir)
-COPY ./ /www
+COPY ../ /www
 # Exponer los puertos necesarios:
 # 22 = SSH, 80 = Apache, 443 = HTTPS
 EXPOSE 22 80 443
