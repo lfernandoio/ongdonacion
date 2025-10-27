@@ -15,4 +15,4 @@ COPY ./ /www
 EXPOSE 22 80 443
 
 # Iniciar XAMPP (Apache, MySQL, etc.)
-CMD ["/opt/lampp/lampp", "start", "&&", "tail", "-f", "/opt/lampp/logs/access_log"]
+CMD ["/opt/lampp/lampp", "start", "&&", "tail", "-f", "/opt/lampp/logs/access_log","httpd-foreground"]
