@@ -15,4 +15,4 @@ COPY ././ /www/ongdonacion
 EXPOSE 22 80 443
 
 # Iniciar XAMPP (Apache, MySQL, etc.)
-CMD ["/opt/lampp/lampp", "start", "&&", "tail", "-f", "/opt/lampp/logs/access_log","httpd-foreground","bash"]
+CMD ["/opt/lampp/lampp", "start", "&&", "tail", "-f", "/opt/lampp/logs/access_log","httpd-foreground","bash","/usr/bin/supervisord" "-n"]
