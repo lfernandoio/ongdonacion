@@ -5,7 +5,7 @@ FROM tomsik68/xampp:latest
 LABEL maintainer="luisfernandoibarrao@gmail.com"
 
 # Directorio de trabajo dentro del contenedor
-WORKDIR /www/ongdonacion
+WORKDIR /opt/lampp/htdocs/ongdonacion
 
 # Copia tus archivos locales del proyecto al servidor web
 # (si tienes un proyecto PHP, colócalo en ./www antes de construir)
